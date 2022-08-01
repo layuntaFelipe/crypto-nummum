@@ -14,7 +14,7 @@ body {
 
 a {
   color: #f4f4f4;
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 h1 {
@@ -110,4 +110,23 @@ h1 {
 .coin-row .img-symbol {
   display: flex;
   align-items: center;
+}
+
+.btn {
+  background-color: rgb(32, 255, 125);
+  color: #26272b;
+  width: 40rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  margin: 1rem 30% 3rem;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #26272b;
+  color: rgb(32, 255, 125);
+  border: 2px solid rgb(32, 255, 125);
+  cursor: pointer;
+  box-shadow: 0 0 12px rgb(32, 255, 125);
 }
