@@ -44,6 +44,34 @@ h1 {
   color: rgb(32, 255, 125)
 }
 
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.form-control .form-input {
+  width: 20rem;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 1rem;
+  height: 2.43rem;
+}
+
+.form-control .form-btn {
+  height: 2.45rem;
+  width: 2rem;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.form-control .form-btn .form-btn-icon {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* COINS STYLE */
 /* COINS STYLE */
@@ -130,3 +158,5 @@ h1 {
   cursor: pointer;
   box-shadow: 0 0 12px rgb(32, 255, 125);
 }
+
+
