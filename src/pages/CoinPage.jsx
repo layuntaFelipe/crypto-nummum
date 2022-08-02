@@ -31,9 +31,8 @@ const CoinPage = () => {
           </div>
           <div className="info">
             <div className="coin-heading">
-              {coin.image ? <img src={coin.image.small} alt="" /> : null}
-              <p>{coin.name}</p>
-              <p>{coin.symbol?.toUpperCase()}/USD</p>
+              {coin.image ? <img style={{margin: '0.5rem 1rem 0 0'}} src={coin.image.small} alt="" /> : null}
+              <p>{coin.symbol?.toUpperCase()} /USD</p>
             </div>
             <div className="coin-price">
               {coin.market_data?.current_price ? <h1>${coin.market_data.current_price.usd.toLocaleString()}</h1> : null}
@@ -55,12 +54,12 @@ const CoinPage = () => {
             </thead>
             <tbody>
               <tr>
-                <td><p>{coin.market_data?.price_change_percentage_1h_in_currency?.usd.toFixed(1)}%</p></td>
-                <td><p>{coin.market_data?.price_change_percentage_24h_in_currency?.usd.toFixed(1)}%</p></td>
-                <td><p>{coin.market_data?.price_change_percentage_7d_in_currency?.usd.toFixed(1)}%</p></td>
-                <td><p>{coin.market_data?.price_change_percentage_14d_in_currency?.usd.toFixed(1)}%</p></td>
-                <td><p>{coin.market_data?.price_change_percentage_30d_in_currency?.usd.toFixed(1)}%</p></td>
-                <td><p>{coin.market_data?.price_change_percentage_1yr_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_1h_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_1h_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_24h_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_24h_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_7d_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_7d_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_14d_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_14d_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_30d_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_30d_in_currency?.usd.toFixed(1)}%</p></td>
+                <td><p style={{color: `${coin.market_data?.price_change_percentage_1y_in_currency?.usd > 0 ? 'rgb(32, 255, 125)' : 'rgb(255, 62, 32)'}`}}>{coin.market_data?.price_change_percentage_1y_in_currency?.usd.toFixed(1)}%</p></td>
               </tr>
             </tbody>
           </table>

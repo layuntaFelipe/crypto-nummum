@@ -2,7 +2,7 @@ import React from 'react';
 import CoinItem from './CoinItem';
 import { Link } from 'react-router-dom';
 
-const Coins = ({coins}) => {
+const Coins = ({coins, fromSearch}) => {
   return (
     <div className='container'>
       <div>
@@ -17,7 +17,7 @@ const Coins = ({coins}) => {
 
         {coins.map((coin, index) => (
             <Link key={index} to={`/coin/${coin.id}`}>
-              <CoinItem coin={coin} />
+              <CoinItem coin={coin} fromSearch={fromSearch} />
             </Link>
         ))}
 

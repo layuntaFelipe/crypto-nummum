@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios';
-import {FaSearch} from 'react-icons/fa';
 import Coins from '../components/Coins';
 
 const Home = () => {
@@ -23,14 +22,12 @@ const Home = () => {
 
   return (
     <>
-      <form className='form-control'>
-        <div>
-          <input type="text" name="crypto" id="crypto" className='form-input' placeholder='Search for crypto' />
-          <button type="submit" className='form-btn'><FaSearch className='form-btn-icon'/></button>
-        </div>
-      </form>
       <Coins coins={coins} />
-      <button className='btn' onClick={increaseNumberOfCoins}>View More</button>
+      <div className="container">
+        <div className="content">
+          <button className='btn' onClick={increaseNumberOfCoins}>View More</button>
+        </div>
+      </div>
     </>
   )
 }
