@@ -1,6 +1,7 @@
-
-# Crypto-Nummum 
-![logo] (https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/logo.png)
+<p align="center">
+  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/logo.png" alt="Boxes Logo" width="120"/>
+  <h1 align="center">Crypto-Nummum </h1>
+</p>
 
 Crypto-Nummum is a simple Crypto API web page with a clean design that helps you navigate and get to know more about your favorite crypto.
 
