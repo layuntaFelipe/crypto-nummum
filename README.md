@@ -29,8 +29,8 @@ With the heelp of this API, you get all the market information about all the cry
 ## Website Preview
 
 <p float="left">
-  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="First app screen" width="450"/>
-  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="Second app screen" width="450"/>
+  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="First app screen" width="500"/>
+  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="Second app screen" width="500"/>
 </p>
 
 
