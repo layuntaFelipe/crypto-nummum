@@ -26,7 +26,7 @@ With the heelp of this API, you get all the market information about all the cry
 
 ## Website Preview
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/layuntaFelipe/crypto-nummum/blob/master/public/logo512.png)
 
 
 ## Acknowledgements
