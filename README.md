@@ -1,5 +1,5 @@
 
-# Crypto-Nummum
+# Crypto-Nummum ![logo] (https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/logo.png)
 
 Crypto-Nummum is a simple Crypto API web page with a clean design that helps you navigate and get to know more about your favorite crypto.
 
@@ -26,7 +26,7 @@ With the heelp of this API, you get all the market information about all the cry
 
 ## Website Preview
 
-![App Screenshot](https://github.com/layuntaFelipe/crypto-nummum/blob/master/public/logo512.png)
+![App Screenshot](https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png)
 
 
 ## Acknowledgements
