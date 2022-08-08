@@ -8,17 +8,17 @@ Crypto-Nummum is a simple Crypto API web page with a clean design that helps you
 Check the website out on: https://crypto-nummum.vercel.app/
 ## About the API used
 
-For this project I used the CoinGecko API, a very easy going no key API, with clean documentation and HTTPS. <br />
-With the heelp of this API, you get all the market information about all the cryptos out there in the world. From the most known one like: Bitcoin, to Baby Doge Coin
+For this project, I used the CoinGecko API, a very easygoing no key API, with clean documentation and HTTPS.
+With the help of this API, you get all the market information about all the cryptos out there in the world. From the most known ones like: Bitcoin to Baby Doge Coin.
 
 ## Roadmap
 
-- Understand how the CoinGecko API works
-- Layout the design for the page
-- Use Axios to get the data from the API
-- Use UseState and UseEffect to store and load the data from the API to their own components
-- Use React-Router-Dom to link the home page to the specific coin page.
-- Finish styling website to perfection
+- Understand how the CoinGecko API works;
+- Layout the design for the page;
+- Use Axios to get the data from the API;
+- Use UseState and UseEffect to store and load the data from the API to their own components;
+- Use React-Router-Dom to link the home page to the specific coin page;
+- Finish styling website to perfection;
 
 
 ## Tech Stack
