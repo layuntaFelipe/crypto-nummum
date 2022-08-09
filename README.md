@@ -5,7 +5,7 @@
 
 Crypto-Nummum is a simple Crypto API web page with a clean design that helps you navigate and get to know more about your favorite crypto.
 
-Check the website out on: https://crypto-nummum.vercel.app/
+Check the website out at: https://crypto-nummum.vercel.app/
 ## About the API used
 
 For this project, I used the CoinGecko API, a very easygoing no key API, with clean documentation and HTTPS.
