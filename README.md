@@ -30,8 +30,8 @@ With the help of this API, you get all the market information about all the cryp
 
 <p float="left">
   <img align="center" src="https://raw.githubusercontent.com/layuntaFelipe/crypto-nummum/master/screenshots/Screen%20Shot%202022-12-08%20at%209.07.34%20PM.png" alt="Demo" width="800"/> <br/><br/>
-  img align="center" src="https://raw.githubusercontent.com/layuntaFelipe/crypto-nummum/master/screenshots/Screen%20Shot%202022-12-08%20at%209.08.00%20PM.png" alt="Demo" width="800"/> <br/><br/>
-  img align="center" src="https://raw.githubusercontent.com/layuntaFelipe/crypto-nummum/master/screenshots/Screen%20Shot%202022-12-08%20at%209.08.15%20PM.png" alt="Demo" width="800"/> <br/><br/>
+  <img align="center" src="https://raw.githubusercontent.com/layuntaFelipe/crypto-nummum/master/screenshots/Screen%20Shot%202022-12-08%20at%209.08.00%20PM.png" alt="Demo" width="800"/> <br/><br/>
+  <img align="center" src="https://raw.githubusercontent.com/layuntaFelipe/crypto-nummum/master/screenshots/Screen%20Shot%202022-12-08%20at%209.08.15%20PM.png" alt="Demo" width="800"/> <br/><br/>
   <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/crypto-video-2.gif" alt="Demo" width="800"/> <br/><br/>
   <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="Web first page" width="500"/> <br/><br/>
   <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/crypto-home-2.png" alt="Web first page" width="500"/> <br/><br/>
